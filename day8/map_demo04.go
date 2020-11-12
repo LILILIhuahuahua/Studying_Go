@@ -28,6 +28,7 @@ func main() {
 	 fmt.Printf("%T\n",map2)
 
 	 map3 := make(map[string]map[string]string) //map[string]map[string]string
+	fmt.Printf("%T\n",map3)
 	 m1 :=make(map[string]string)
 	 m1["name"] = "王二狗"
 	 m1["age"] = "30"

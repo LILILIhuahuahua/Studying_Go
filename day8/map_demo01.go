@@ -55,8 +55,9 @@ func main() {
 	 */
 
 	//1.创建map
-	var map1 map[int]string         //没有初始化，nil
-	var map2 = make(map[int]string) //创建
+	//           [key]value
+	var map1 map[int]string         //没有初始化,还没有申请地址，nil
+	var map2 = make(map[int]string) //创建，申请了地址
 	var map3 = map[string]int{"Go": 98, "Python": 87, "Java": 79, "Html": 93}
 	fmt.Println(map1)
 	fmt.Println(map2)
@@ -82,11 +83,14 @@ func main() {
 
 	//4.获取数据，根据key获取对应的value值
 	//根据key获取对应的value，如果key存在，获取数值，如果key不存在，获取的是value值类型的零值
+	fmt.Println("打印map1")
 	fmt.Println(map1)
 	fmt.Println(map1[4]) //根据key为4，获取对应的value值
 	fmt.Println(map1[40]) //""
 
-	v1,ok :=map1[40]
+	//ok-idiom写法
+	v1,ok :=map1[1]
+	fmt.Println("v1,ok",v1,ok)
 	if ok {
 		fmt.Println("对应的数值是：",v1)
 	}else{
@@ -106,6 +110,5 @@ func main() {
 
 	//7.长度
 	fmt.Println(len(map1))
-
 
 }
