@@ -15,9 +15,10 @@ func main() {
 	s1 := "true"
 	b1,err := strconv.ParseBool(s1)
 	if err != nil{
-		fmt.Println(err)
+		fmt.Println("err的值",err)
 		return
 	}
+	fmt.Println("-----------")
 	fmt.Printf("%T,%t\n",b1,b1)
 
 	ss1 := strconv.FormatBool(b1)

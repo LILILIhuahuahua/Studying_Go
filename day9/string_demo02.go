@@ -8,7 +8,6 @@ import (
 func main() {
 	/*
 	strings包下的关于字符串的函数
-
 	 */
 	s1 := "helloworld"
 	//1.是否包含指定的内容-->bool
@@ -16,7 +15,7 @@ func main() {
 	//2.是否包含chars中任意的一个字符即可
 	fmt.Println(strings.ContainsAny(s1, "abcd"))
 	//3.统计substr在s中出现的次数
-	fmt.Println(strings.Count(s1, "lloo"))
+	fmt.Println(strings.Count(s1, "llo"))
 
 	//4.以xxx前缀开头，以xxx后缀结尾
 	s2 := "20190525课堂笔记.txt"
@@ -37,6 +36,7 @@ func main() {
 	ss1 := []string{"abc","world","hello","ruby"}
 	s3 := strings.Join(ss1,"-")
 	fmt.Println(s3)
+	fmt.Println(len(s3))
 
 	//切割
 	s4 := "123,4563,aaa,49595,45"
@@ -52,7 +52,7 @@ func main() {
 
 	//替换
 	//helloworld
-	s6 := strings.Replace(s1,"l","*",-1)
+	s6 := strings.Replace(s1,"l","*",2)
 	fmt.Println(s6)
 	//fmt.Println(strings.Repeat("hello",5))
 
