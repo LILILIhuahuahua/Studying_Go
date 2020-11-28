@@ -31,6 +31,7 @@ func main() {
 	 fmt.Println(c1.area())
 	 fmt.Println(c1.radius)
 
+	fmt.Println("-----------")
 	 var s1 Shape
 	 s1 = t1
 	 fmt.Println(s1.peri())
@@ -40,7 +41,7 @@ func main() {
 	 s2 = c1
 	 fmt.Println(s2.peri())
 	 fmt.Println(s2.area())
-
+	fmt.Println("-----------")
 	 testShape(t1)
 	 testShape(c1)
 	 testShape(s1)
@@ -71,6 +72,7 @@ func getType2 (s Shape){
 func getType(s Shape){
 	//断言
 	if ins, ok := s.(Triangle) ; ok{
+		fmt.Println("ins11111111:",ins)
 		fmt.Println("是三角形，三边是：",ins.a,ins.b,ins.c)
 	}else if ins, ok := s.(Circle); ok{
 		fmt.Println("是圆形，半径是：",ins.radius)

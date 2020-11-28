@@ -30,7 +30,7 @@ func main() {
 	 //2.定义结构体指针
 	 var pp1 *Person
 	 pp1 = &p1
-	 fmt.Println(pp1)
+	 fmt.Println("打印pp1",pp1)
 	 fmt.Printf("%p,%T\n",pp1,pp1)
 	 fmt.Println(*pp1)
 
