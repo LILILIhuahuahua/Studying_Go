@@ -24,7 +24,7 @@ func main() {
 	 //ch3 <- 2000 //invalid operation: ch3 <- 2000 (send to receive-only type <-chan int)
 
 
-	go fun1(ch1) //可读，可写
+	go fun1(ch1) //可读，可写的ch1被函数参数限制为只写
 	 //go fun1(ch2) //只写
 
 	 data := <- ch1

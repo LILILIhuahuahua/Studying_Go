@@ -22,7 +22,7 @@ func main() {
 
 	 ch1 <- "我是main" //发送
 
-	 <- done
+	 <- done  //通道中读取数据，但是不接收
 	 fmt.Println("main..over...")
 }
 

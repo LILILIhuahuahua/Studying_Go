@@ -2,43 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2446b455-0e6e-41fb-ad67-7d7b56e974af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day14/TypeChange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/Type_Test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo01_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo02_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo03_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo04_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo05_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo06_error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/demo07_panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/ab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/bb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo01_fileinfo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo02_file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo03_read.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo04_write.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo05_copy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo06_seek.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo07_seek.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo08_bufio_r.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo09_bufio_w.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo10_ioutil.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/demo11.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/guliang.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo01_goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo02_runtime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo03_race.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo04_ticket.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo05_waitgroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo06_mutex.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/demo07_rwmutex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Client/Main/Main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Client/Process/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Client/Process/shortMesProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Client/Process/userProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Client/Utils/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Common/Message/Message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Common/User/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Model/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Model/userDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Process/shortmsProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Process/userManager.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Process/userProcess.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/Utils/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/main/process.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatRoom/Server/main/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testcase02/monster.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testcase02/monster_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testingdemo01/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testingdemo01/testcase01/cal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testingdemo01/testcase01/cal_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/testingdemo01/testcase01/sub_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/redisdemo/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/redisdemo02/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/redisdemo02/main2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/redispool/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/tcpdemo/client/client(1).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/tcpdemo/client/client(2).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter18/tcpdemo/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo01_reflect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo02.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo03.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo04.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo05.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo06.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/demo07.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/serial/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/unmarshal/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.go" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/Test_Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/day13/Test_Struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/demo02_structpointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/day13/demo02_structpointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/demo10_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/day14/demo10_interface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/demo12_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/day14/demo12_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/day14/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo10_chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo10_chan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo11_close.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo11_close.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo13_bufchan.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo13_bufchan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo14_双向通道.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo14_双向通道.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo15_单向通道.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo15_单向通道.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo18_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo18_select.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/demo19_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/day18/demo19_select.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\Code\Go\go" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.15.5.windows-amd64/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,84 +78,80 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ChatRoom/Client/Utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Server\Process" />
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Common\User" />
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Common\Message" />
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Common" />
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Server\main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Client\Utils" />
+      <recent name="D:\Code\Go\GoProject\demo\ChatRoom\Client" />
+      <recent name="D:\Code\Go\GoProject\demo\chapter18\tcpdemo\client" />
       <recent name="D:\Code\Go\GoProject\demo" />
       <recent name="D:\Code\Go\GoProject\demo\day16" />
-      <recent name="D:\Code\Go\src\GoProject\demo" />
-      <recent name="D:\Code\Go\GoProject\demo\day15" />
-      <recent name="D:\Code\Go\GoProject\demo\day14" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Go\GoProject\demo\SunanFaHomeWork" />
-      <recent name="D:\Code\Go\GoProject\demo\day9" />
-      <recent name="D:\Code\Go\GoProject\demo\day6" />
-      <recent name="D:\Code\Go\GoProject\demo\day5" />
-      <recent name="D:\Code\Go\GoProject\demo\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build demo07_rwmutex.go">
-    <configuration name="go build demo03_race.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build Main.go">
+    <configuration name="go build Login.go Main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day17/demo03_race.go" />
+      <filePath value="$PROJECT_DIR$/ChatRoom/Client/Main/Login.go|$PROJECT_DIR$/ChatRoom/Client/Main/Main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo04_ticket.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day17/demo04_ticket.go" />
+      <filePath value="$PROJECT_DIR$/ChatRoom/Client/Main/Main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo05_waitgroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go process.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day17/demo05_waitgroup.go" />
+      <filePath value="$PROJECT_DIR$/ChatRoom/Server/main/main.go|$PROJECT_DIR$/ChatRoom/Server/main/process.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo06_mutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build redis.go process.go main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day17/demo06_mutex.go" />
+      <filePath value="$PROJECT_DIR$/ChatRoom/Server/main/redis.go|$PROJECT_DIR$/ChatRoom/Server/main/process.go|$PROJECT_DIR$/ChatRoom/Server/main/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo07_rwmutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build userProcess.go shortmsProcess.go userManager.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day17/demo07_rwmutex.go" />
+      <filePath value="$PROJECT_DIR$/ChatRoom/Server/Process/userProcess.go|$PROJECT_DIR$/ChatRoom/Server/Process/shortmsProcess.go|$PROJECT_DIR$/ChatRoom/Server/Process/userManager.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build demo07_rwmutex.go" />
-        <item itemvalue="Go Build.go build demo06_mutex.go" />
-        <item itemvalue="Go Build.go build demo05_waitgroup.go" />
-        <item itemvalue="Go Build.go build demo04_ticket.go" />
-        <item itemvalue="Go Build.go build demo03_race.go" />
+        <item itemvalue="Go Build.go build Main.go" />
+        <item itemvalue="Go Build.go build redis.go process.go main.go" />
+        <item itemvalue="Go Build.go build userProcess.go shortmsProcess.go userManager.go" />
+        <item itemvalue="Go Build.go build main.go process.go" />
+        <item itemvalue="Go Build.go build Login.go Main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -162,57 +167,93 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1605187258597" />
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1606551292142">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606961430363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606551292142" />
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606271224935" />
-    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1606551292141">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1606961430363" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1607417009066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606551292141" />
-    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606271224935" />
-    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1606551292141">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607417009066" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343124" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606986824770" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1607417009066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606551292141" />
-    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606271224935" />
-    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1606551292141">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607417009066" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343124" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606986824770" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1607417009065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606551292141" />
-    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606271224935" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1606543279099">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607417009065" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343124" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606986824770" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1607417009066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606543279099" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605232639252" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1606543279098">
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607417009066" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343124" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606986824770" />
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom" timestamp="1607254106196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606543279098" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605232639252" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1606543279098">
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607254106196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343125" />
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709294" />
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606986746474" />
+    <state width="1493" height="207" key="GridCell.Tab.1.center" timestamp="1607254106196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606543279098" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605232639252" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1606543279098">
+    <state width="1493" height="207" key="GridCell.Tab.1.center/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607254106196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343125" />
+    <state width="1493" height="207" key="GridCell.Tab.1.center/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="207" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606986746473" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left" timestamp="1607254106195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606543279098" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605232639252" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607254106195" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343125" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606986746473" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right" timestamp="1607254106196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.1.right/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607254106196" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1606564343125" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607158709293" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606986746473" />
     <state x="589" y="132" key="RollbackChangesDialog" timestamp="1605515521089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="589" y="132" key="RollbackChangesDialog/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1605515521089" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1605020922791">
+    <state x="270" y="57" key="SettingsEditor" timestamp="1607142265541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605020922791" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605185764887">
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607142265541" />
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606958358707" />
+    <state x="544" y="273" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1606823068961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="544" y="273" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1606823068961" />
+    <state x="-1703" y="-147" width="1205" height="608" key="dock-window-1" timestamp="1607001577326">
+      <screen x="-2560" y="-350" width="2048" height="1112" />
+    </state>
+    <state x="-1703" y="-147" width="1205" height="608" key="dock-window-1/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607001577326" />
+    <state x="-1722" y="-350" width="1205" height="1118" key="dock-window-2" timestamp="1607002662378">
+      <screen x="-2560" y="-350" width="2048" height="1112" />
+    </state>
+    <state x="-1722" y="-350" width="1205" height="1118" key="dock-window-2/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607002662378" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607420712770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1440.-350.1152.2008@0.0.1536.824" timestamp="1607420712770" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1440.-619.1152.2008@0.0.1536.824" timestamp="1605185764887" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-2560.-350.2048.1112@0.0.1536.824" timestamp="1607003127633" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606979716725" />
   </component>
 </project>

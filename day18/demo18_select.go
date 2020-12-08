@@ -35,10 +35,10 @@ func main() {
 		} else {
 			fmt.Println("ch2通道已经关闭。。")
 		}
-
-	default:
-		fmt.Println("default语句。。。")
+	//default:
+	//	fmt.Println("default语句。。。")
 	}
+
 
 	fmt.Println("main..over...")
 }

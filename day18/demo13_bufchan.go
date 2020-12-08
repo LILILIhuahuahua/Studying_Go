@@ -32,7 +32,7 @@ func main() {
 
 	 fmt.Println("-----------------")
 	 ch3 := make(chan string, 4)
-	go sendData(ch3)
+	 go sendData(ch3)
 
 	for{
 		v, ok := <-ch3

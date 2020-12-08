@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 func main() {
@@ -15,11 +14,12 @@ func main() {
 		fmt.Println("data：",data)
 	}()
 
-	time.Sleep(5*time.Second)
+	//time.Sleep(5*time.Second)
 	ch1 <- 10
 	fmt.Println("main..over...")
 
+	//通信读写必须配套，否则会死锁
+	//ch := make(chan int)
+	//ch <- 100 //阻塞
 
-	ch := make(chan int)
-	ch <- 100 //阻塞
 }

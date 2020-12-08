@@ -22,6 +22,7 @@ func main() {
 	 for{
 	 	time.Sleep(1*time.Second)
 	 	v, ok := <- ch1  // 最后一次读取
+	 	//当通道close后，读取失败，ok==false
 	 	if !ok{
 	 		fmt.Println("已经读取了所有的数据。。",ok,v)
 	 		break
